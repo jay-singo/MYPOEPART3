@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechGadgets - Enquiry</title>
+  <link rel="stylesheet" href="Css/Style.css">
+  <script src="java/TechGadgets.java"></script>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>TechGadgets SA</h1>
+      <p>South Africa's trusted tech retailer</p>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="enquiry-section">
+      <h2>Enquiry</h2>
+      <p>Want pricing on a specific product? Get a personalized quote within 2 hours.</p>
+      <form>
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="full-name" required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="product">What are you looking for?</label>
+        <input type="text" id="product" name="product" required>
+        <label for="quantity">How many do you need?</label>
+        <select id="quantity" name="quantity" required>
+          <option value="1">1 device</option>
+          <option value="2-5">2-5 devices</option>
+          <option value="6-10">6-10 devices</option>
+          <option value="10+">10+ devices (bulk pricing)</option>
+        </select>
+        <label for="budget">Budget Range (Optional)</label>
+        <select id="budget" name="budget">
+          <option value="">Select budget</option>
+          <option value="under-5000">Under R5,000</option>
+          <option value="5000-15000">R5,000 - R15,000</option>
+          <option value="15000-30000">R15,000 - R30,000</option>
+          <option value="over-30000">Over R30,000</option>
+        </select>
+        <label for="details">Additional Details</label>
+        <textarea id="details" name="details" rows="4"></textarea>
+        <input type="submit" value="Submit Enquiry">
+      </form>
+    </section>
+    <section class="why-choose-us">
+      <h2>Why Choose TechGadgets?</h2>
+      <ul>
+        <li>Wide selection of quality products</li>
+        <li>Competitive pricing</li>
+        <li>Expert advice and support</li>
+        <li>Fast shipping</li>
+        <li>Warranty on all products</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2023 TechGadgets. All rights reserved.</p>
+    <p>Email: info@techgadgets.co.za | Phone: +27 11 123 4567</p>
+    <p>123 Tech Street, Sandton, Gauteng 2196</p>
+  </footer>
+</body>
+</html>
